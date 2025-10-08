@@ -20,6 +20,12 @@ A simple yet powerful Android app to help you learn and practice the C programmi
 <!-- Add screenshots of your app UI here -->
 > _Coming soon..._
 
+![Home Screen](screenshots/home.png)
+
+
+![Tutorial Page](screenshots/tutorial.png)
+
+![Code Editor](screenshots/editor.png)
 ---
 
 ## 🔧 Technologies Used
