@@ -30,4 +30,4 @@ A simple yet powerful Android app to help you learn and practice the C programmi
 
 
    ```bash
-   git clone https://github.com/yourusername/C-Programming-App.git
+  [ git clone https://github.com/yourusername/C-Programming-App.git](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/tree/master)
