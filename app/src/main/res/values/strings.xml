@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CProgramming</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="important">  Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of C language (Only a few programs may compile in C, but not in C++).\n\n
+
+        So,  if a person learns C programming first, it will help him to learn any modern programming language as well. As learning C help to understand a lot of the underlying architecture of the operating system. Like pointers, working with memory locations, etc.</string>
+    <string name="application">Operating systems (e.g., UNIX, Linux, Windows)\n
+Game development\n
+Embedded systems\n
+Compilers and interpreters\n
+Device drivers and system utilities\n\n
+C is versatility and performance make it a powerful tool for both beginners and experienced programmers.</string>
+</resources>

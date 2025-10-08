@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE " />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CProgramming"
+        tools:targetApi="31">
+        <activity
+            android:name=".item16"
+            android:exported="false" />
+        <activity
+            android:name=".item15"
+            android:exported="false" />
+        <activity
+            android:name=".item14"
+            android:exported="false" />
+        <activity
+            android:name=".item13"
+            android:exported="false" />
+        <activity
+            android:name=".item12"
+            android:exported="false" />
+        <activity
+            android:name=".item11"
+            android:exported="false" />
+        <activity
+            android:name=".item10"
+            android:exported="false" />
+        <activity
+            android:name=".item9"
+            android:exported="false" />
+        <activity
+            android:name=".item8"
+            android:exported="false" />
+        <activity
+            android:name=".item7"
+            android:exported="false" />
+        <activity
+            android:name=".item6"
+            android:exported="false" />
+        <activity
+            android:name=".item5"
+            android:exported="false" />
+        <activity
+            android:name=".item4"
+            android:exported="false" />
+        <activity
+            android:name=".item3"
+            android:exported="false" />
+        <activity
+            android:name=".item2"
+            android:exported="false" />
+        <activity
+            android:name=".item1"
+            android:exported="false" />
+        <activity
+            android:name=".Interview_Questions"
+            android:exported="false" />
+        <activity
+            android:name=".handling"
+            android:exported="false" />
+        <activity
+            android:name=".file_operation"
+            android:exported="false" />
+        <activity
+            android:name=".basic_file"
+            android:exported="false" />
+        <activity
+            android:name=".union_structure"
+            android:exported="false" />
+        <activity
+            android:name=".union"
+            android:exported="false" />
+        <activity
+            android:name=".nested_structure"
+            android:exported="false" />
+        <activity
+            android:name=".structure"
+            android:exported="false" />
+        <activity
+            android:name=".memory_allocation"
+            android:exported="false" />
+        <activity
+            android:name=".pointer_function"
+            android:exported="false" />
+        <activity
+            android:name=".element_pointers"
+            android:exported="false" />
+        <activity
+            android:name=".pointers_Basic"
+            android:exported="false" />
+        <activity
+            android:name=".recursion"
+            android:exported="false" />
+        <activity
+            android:name=".nested_function"
+            android:exported="false" />
+        <activity
+            android:name=".category"
+            android:exported="false" />
+        <activity
+            android:name=".function_call"
+            android:exported="false" />
+        <activity
+            android:name=".element"
+            android:exported="false" />
+        <activity
+            android:name=".multifunction"
+            android:exported="false" />
+        <activity
+            android:name=".Introduction_function"
+            android:exported="false" />
+        <activity
+            android:name=".string"
+            android:exported="false" />
+        <activity
+            android:name=".Multi_Dimensional_Arrays"
+            android:exported="false" />
+        <activity
+            android:name=".two_Dimensional_Array"
+            android:exported="false" />
+        <activity
+            android:name=".One_Dimensional_Array"
+            android:exported="false" />
+        <activity
+            android:name=".nested_loops"
+            android:exported="false" />
+        <activity
+            android:name=".do_while"
+            android:exported="false" />
+        <activity
+            android:name=".while_loops"
+            android:exported="false" />
+        <activity
+            android:name=".for_loos"
+            android:exported="false" />
+        <activity
+            android:name=".convertion"
+            android:exported="false" />
+        <activity
+            android:name=".precedence"
+            android:exported="false" />
+        <activity
+            android:name=".expression_arithmetic"
+            android:exported="false" />
+        <activity
+            android:name=".operators"
+            android:exported="false" />
+        <activity
+            android:name=".special"
+            android:exported="false" />
+        <activity
+            android:name=".bitwise"
+            android:exported="false" />
+        <activity
+            android:name=".conditional"
+            android:exported="false" />
+        <activity
+            android:name=".increment"
+            android:exported="false" />
+        <activity
+            android:name=".logical"
+            android:exported="false" />
+        <activity
+            android:name=".relationall"
+            android:exported="false" />
+        <activity
+            android:name=".Arithmetic"
+            android:exported="false" />
+        <activity
+            android:name=".Declaretion"
+            android:exported="false" />
+        <activity
+            android:name=".DataType"
+            android:exported="false" />
+        <activity
+            android:name=".Variable"
+            android:exported="false" />
+        <activity
+            android:name=".Kywerd_Identifire"
+            android:exported="false" />
+        <activity
+            android:name=".Tokens"
+            android:exported="false" />
+        <activity
+            android:name=".Comment"
+            android:exported="false" />
+        <activity
+            android:name=".returnType"
+            android:exported="false" />
+        <activity
+            android:name=".mainFunction"
+            android:exported="false" />
+        <activity
+            android:name=".include"
+            android:exported="false" />
+        <activity
+            android:name=".Basic"
+            android:exported="false" />
+        <activity
+            android:name=".Application"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

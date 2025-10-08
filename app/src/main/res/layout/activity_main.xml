@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2A3B45"
+    android:id="@+id/draw"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#415460"
+            android:elevation="4dp"
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/fram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/button_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#415460"
+                app:itemIconTint="#00BCD4"
+                app:itemRippleColor="#66f"
+                android:visibility="visible"
+                app:labelVisibilityMode="labeled"
+                app:itemTextColor="@color/text_color"
+                app:menu="@menu/menu" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationApp"
+        android:background="#2A3B45"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="#E2E2F1"
+        app:itemRippleColor="#FF5722"
+        android:layout_gravity="start"
+        app:itemIconSize="20dp"
+        app:menu="@menu/drowar_view"
+        app:headerLayout="@layout/header" />
+</androidx.drawerlayout.widget.DrawerLayout>

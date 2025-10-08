@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2A3B45"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".item1">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:background="#385567"
+        android:layout_height="55dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tabMode"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="386dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="In Search of an Easy Problem"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="time limit per test: 2 seconds"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="memory limit per test: 256 megabytes"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="When preparing a tournament, Codeforces coordinators try treir best to make the first problem as easy as possible. This time the coordinator had chosen some problem and asked n
+ people about their opinions. Each person answered whether this problem is easy or hard."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="If at least one of these n
+ people has answered that the problem is hard, the coordinator decides to change the problem. For the given responses, check if the problem is easy enough."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:editable="true"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Input"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:editable="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="The first line contains a single integer n
+ (1≤n≤100
+) — the number of people who were asked to give their opinions."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="The second line contains n
+ integers, each integer is either 0
+ or 1
+. If i
+-th integer is 0
+, then i
+-th person thinks that the problem is easy; if it is 1
+, then i
+-th person thinks that the problem is hard.."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Output"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:editable="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="205dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="Print one word: EASY if the problem is easy according to all responses, or HARD if there is at least one person who thinks the problem is hard.\n\nYou may print every letter in any register: EASY, easy, EaSY and eAsY all will be processed correctly."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Example"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:editable="true"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="117dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:editable="true"
+                        android:text="Input\n6\n0 0 1 0 1 0"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Output"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="HARD"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:editable="true"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="117dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Input\n1\n0"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:editable="true"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Output"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:editable="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:editable="true"
+                        android:text="EASY"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="188dp"
+                android:tooltipText="Exit"
+                android:layout_height="52dp"
+                android:id="@+id/solve_qus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Solve Problem"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:title="Profile"
+            android:id="@+id/Profile"
+            android:checkable="true"
+            android:icon="@drawable/profile1"
+            />
+        <item android:title="History and Evolution"
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            />
+        <item android:title="Importance and Application"
+            android:id="@+id/importance"
+            android:icon="@drawable/importance"
+            />
+
+        <item android:title="Basic of C"
+            android:id="@+id/basic_c"
+            >
+              <menu>
+                  <group android:checkableBehavior="single">
+
+                      <item android:title="Hello World Program"
+                          android:id="@+id/hello"
+                          />
+                      <item android:title="#include Directives"
+                          android:id="@+id/include"/>
+                      <item android:title="main() Function"
+                          android:id="@+id/main"/>
+
+                      <item android:title="return Types"
+                          android:id="@+id/return_type"/>
+
+                      <item android:title="Comments and Formatting"
+                          android:id="@+id/comment"/>
+
+                      <item android:title="C Tokens"
+                          android:id="@+id/token"/>
+
+                      <item android:title="Keyword and Identifiers"
+                          android:id="@+id/keyword"/>
+
+                      <item android:title="Constants and Variables"
+                          android:id="@+id/variable"/>
+
+                      <item android:title="Data Type"
+                          android:id="@+id/data_type"/>
+
+                      <item android:title="Declaration and Initialization"
+                          android:id="@+id/initialization"/>
+
+                  </group></menu></item>
+
+        <item android:title="Operators and Expressions"
+            android:id="@+id/expression"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="Arithmetic operators"
+                        android:id="@+id/arithmetic"
+                        />
+                    <item android:title="Relational operators"
+                        android:id="@+id/relational"/>
+
+                    <item android:title="Logical Operators"
+                        android:id="@+id/logical"/>
+
+                    <item android:title="Increment and Decrement"
+                        android:id="@+id/increment"/>
+
+                    <item android:title="Conditional operators"
+                        android:id="@+id/conditional"/>
+
+                    <item android:title="Bitwise operators"
+                        android:id="@+id/bitwise"/>
+
+                    <item android:title="Special operators"
+                        android:id="@+id/special"/>
+
+                    <item android:title="Operator  Precedence and Associativity"
+                        android:id="@+id/operetors"/>
+
+                    <item android:title="Arithmetic Expression"
+                        android:id="@+id/expression_arithmetic"/>
+
+                    <item android:title="Precedence of Arithmetic Operators"
+                        android:id="@+id/precedence"/>
+
+                    <item android:title="Type Convertiocs in Expressions"
+                        android:id="@+id/convertion"/>
+
+                </group></menu></item>
+
+
+        <item android:title="Loops"
+            android:id="@+id/loop"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="for Loop"
+                        android:id="@+id/for_loop"
+                        />
+                    <item android:title="while loop"
+                        android:id="@+id/while_loop"/>
+
+                    <item android:title="do while"
+                        android:id="@+id/do_while"/>
+                    <item android:title="Nseted Loops"
+                        android:id="@+id/nested"/>
+
+                </group></menu></item>
+
+
+        <item android:title="Arrays"
+            android:id="@+id/array"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="One Dimensional Array"
+                        android:id="@+id/one_array"
+                        />
+                    <item android:title="Two Dimensional Array"
+                        android:id="@+id/two_array"/>
+
+                    <item android:title="Multi Dimensional Arrays"
+                        android:id="@+id/multi_array"/>
+
+                </group></menu></item>
+
+        <item android:id="@+id/string"
+            android:title="String"
+            android:icon="@drawable/quiz"
+            />
+
+        <item android:title="User-Defined Functions"
+            android:id="@+id/function"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="Introduction to User-Defined Functions"
+                        android:id="@+id/introduction"/>
+
+                    <item android:title="Multifunction to User-Defined Functions"
+                        android:id="@+id/multifunction"
+                        />
+
+                    <item android:title="Return Values and Their Types"
+                        android:id="@+id/element"/>
+
+                    <item android:title="Function Call"
+                        android:id="@+id/function_call"/>
+
+                    <item android:title="Category of Functions"
+                        android:id="@+id/category"/>
+
+                    <item android:title="Nesting of Functions"
+                        android:id="@+id/nested_function"/>
+
+                    <item android:title="Recursion"
+                        android:id="@+id/recursion"/>
+                </group></menu></item>
+
+        <item android:title="Pointers"
+            android:id="@+id/pointer"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="Basic Pointers"
+                        android:id="@+id/pointers_Basic"
+                        />
+
+                    <item android:title="Pointer,Array and String"
+                        android:id="@+id/element_pointers"/>
+
+                    <item android:title="Pointer to Function "
+                        android:id="@+id/pointer_function"/>
+
+                    <item android:title="Dynamic Memory Allocation"
+                        android:id="@+id/memory_allocation"/>
+
+                </group></menu></item>
+
+
+        <item android:title="Structures and Unions"
+            android:id="@+id/structure_union"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="Structures "
+                        android:id="@+id/structure"
+                        />
+
+                    <item android:title="Nested Structures"
+                        android:id="@+id/nested_structure"/>
+
+                    <item android:title="Unions"
+                        android:id="@+id/union"/>
+
+                    <item android:title="Structures Vs Unions"
+                        android:id="@+id/union_structure"/>
+                </group></menu></item>
+
+        <item android:title="File Handling"
+            android:id="@+id/file"
+            >
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:title="File Basic"
+                        android:id="@+id/basic_file"
+                        />
+
+                    <item android:title="File Operations"
+                        android:id="@+id/file_operation"/>
+
+                    <item android:title="Error Handling"
+                        android:id="@+id/handling"/>
+                </group></menu></item>
+        <item android:id="@+id/interview"
+            android:title="Interview Questions"
+            android:icon="@drawable/quiz"
+            />
+    </group>
+
+</menu>

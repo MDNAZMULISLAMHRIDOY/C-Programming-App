@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #2A3B45"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appLayout"
+            android:layout_width="match_parent"
+            android:background="#385567"
+            android:layout_height="55dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tabMode"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Introduction to C Programming Language"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="171dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="C is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Labs in the early 1970s. It has since become one of the most widely used programming languages due to its efficiency, portability, and flexibility."
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/img_12" />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="The main features of the C language include:"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="1.General Purpose and Portable\n2.Low-level Memory Access\n3.Fast Speed\n4.Clean Syntax"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Characteristics of C:"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/img_13" />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Simple and Efficient:"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="C provides a minimalistic syntax that is easy to learn and use, which allows for writing efficient and fast programs."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+/>
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Low-Level Capabilities:"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="C is often referred to as a middle-level language because it combines features of both high-level and low-level languages. It provides access to low-level memory manipulation, which is particularly useful in system programming, such as developing operating systems, drivers, and embedded systems."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Rich Library Support:"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="C comes with a standard library (stdio.h, stdlib.h, etc.) that provides many built-in functions to handle tasks like input/output, memory allocation, string manipulation, etc."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Structured Language:"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="C supports structured programming, which encourages the use of functions and control structures like if, while, and for to break down programs into smaller, manageable parts."
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Basic Structure of a C Program:"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#2A3B45"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <WebView
+                    android:id="@+id/aLegs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#62626A" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="-39dp"
+                    android:background="#2A3B45"
+                    android:tooltipText="Copied"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:id="@+id/img_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="39dp"
+                        android:background="#282c34"
+                        android:src="@drawable/copy" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Why Learn C?"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/important"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Common Applications of C:"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:src="@drawable/application" />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="274dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/application"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item5"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item6"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item7"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item8"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item9"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item10"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item11"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item12"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item13"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item14"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item15"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item16"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#4CAF50"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</FrameLayout>

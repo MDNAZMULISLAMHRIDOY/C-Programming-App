@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2A3B45"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".item1">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:background="#385567"
+        android:layout_height="55dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tabMode"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="386dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="Alarm Clock"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="time limit per test: 1 seconds"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:gravity="center"
+                        android:text="memory limit per test: 256 megabytes"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="716dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="Daniela is a nurse in a large hospital, which causes her working shifts to constantly change. To make it worse, she has deep sleep, and a big difficulty to wake up using alarm clocks.\n\n
+
+Recently she got a digital clock as a gift, with several different options of alarm sounds, and she hopes that it might help solve her problem. But lately, she's been very tired and wants to enjoy every single moment of rest. So she carries her new clock to every place she goes, and whenever she has some spare time, she tries to sleep, setting her alarm clock to the time when she needs to wake up. But, with so much anxiety to sleep, she ends up with some difficulty to fall asleep and enjoy some rest.\n\n
+
+A problem that has been tormenting her is to know how many minutes of sleep she would have if she felt asleep immediately and woken up when the alarm clock ringed. But she is not very good with numbers, and asked you for help to write a program that, given the current time and the alarm time, find out the number of minutes she could sleep."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Input"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:editable="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="317dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="The input contains several test cases. Each test case is described in one line, containing four integers H1, M1, H2 and M2, with H1 : M1 representing the current hour and minute, and H2:M2 representing the time (hour and minute) when the alarm clock is set to ring (0≤H1≤23, 0≤M1≤59, 0≤H2≤23, 0≤M2 ≤59).\n\n
+The end of the input is indicated by a line containing only four zeros, separated by blank spaces."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Output"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:editable="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:editable="true"
+                android:text="For each test case, your program must print one line, containing a single integer, indicating the number of minutes Daniela has to sleep."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Example"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:editable="true"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="182dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="169dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:editable="true"
+                        android:text="Input\n1 5 3 5\n23 59 0 34\n21 33 21 10\n0 0 0 0 0"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Output"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="329dp"
+                android:layout_height="121dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:background="#2A3B45"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:editable="true"
+                        android:text="120\n35\n1417"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="188dp"
+                android:tooltipText="Exit"
+                android:layout_height="52dp"
+                android:id="@+id/solve_qus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Solve Problem"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
