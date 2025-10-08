@@ -20,12 +20,12 @@ A simple yet powerful Android app to help you learn and practice the C programmi
 <!-- Add screenshots of your app UI here -->
 > _Coming soon..._
 
-![Home Screen]([screenshots/home.png](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064538.png))
+![Home Screen](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064538.png?raw=true)
 
+![Tutorial Page](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064513.png?raw=true)
 
-![Tutorial Page]([screenshots/tutorial.png](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064513.png))
+![Code Editor](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064549.png?raw=true)
 
-![Code Editor]([screenshots/editor.png](https://github.com/MDNAZMULISLAMHRIDOY/C-Programming-App/blob/master/app/src/main/res/drawable/Screenshot%202025-10-08%20064549.png))
 ---
 
 ## 🔧 Technologies Used
